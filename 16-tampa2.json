@@ -1,0 +1,460 @@
+{
+  "id": "tampa2",
+  "order": 16,
+  "level": "Avançado",
+  "family": "Cobertura",
+  "title": "Tampa 2",
+  "kicker": "Cover 2 com um linebacker no meio fundo",
+  "body": [
+    "Tampa 2 é uma Cover 2 em que o linebacker do meio corre para a seam profunda. Os dois safeties continuam nas metades, mas o meio deixa de ser um convite grátis.",
+    "A rota que a Cover 2 doava no peito dos safeties agora encontra um terceiro fundo, atrasado, vindo de baixo.",
+    "O preço está nas laterais e na corrida: esse linebacker abandonou a caixa. A flat e a corrida interna são as respostas."
+  ],
+  "read": "Se o Mike vira e corre para o fundo no snap, não jogue a seam cedo. Jogue a flat ou honre a corrida que ele deixou.",
+  "curriculum": "Academy nomeia Tampa 2 ao lado de Cover 3 e Cover 6.",
+  "arena": {
+    "camera": "All-22. A corrida do Mike para o meio fundo é a única trilha vermelha grossa.",
+    "seconds": 8,
+    "emphasis": "Mostrar o que a Tampa 2 tira (a seam) e o que ela doa (a caixa e a flat)."
+  },
+  "beats": [
+    {
+      "t": 0,
+      "caption": "Estrutura de Cover 2 antes do snap."
+    },
+    {
+      "t": 0.35,
+      "caption": "O Mike dispara para o meio fundo. Virou Tampa 2."
+    },
+    {
+      "t": 0.72,
+      "caption": "A seam fecha. A flat e a caixa ficam mais finas."
+    }
+  ],
+  "actors": [
+    {
+      "id": "LT",
+      "label": "",
+      "team": "O",
+      "kind": "line",
+      "path": [
+        {
+          "t": 0,
+          "x": -6,
+          "y": -1
+        },
+        {
+          "t": 1,
+          "x": -6,
+          "y": -1
+        }
+      ]
+    },
+    {
+      "id": "LG",
+      "label": "",
+      "team": "O",
+      "kind": "line",
+      "path": [
+        {
+          "t": 0,
+          "x": -3,
+          "y": -1
+        },
+        {
+          "t": 1,
+          "x": -3,
+          "y": -1
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "label": "C",
+      "team": "O",
+      "kind": "line",
+      "path": [
+        {
+          "t": 0,
+          "x": 0,
+          "y": -1
+        },
+        {
+          "t": 1,
+          "x": 0,
+          "y": -1
+        }
+      ]
+    },
+    {
+      "id": "RG",
+      "label": "",
+      "team": "O",
+      "kind": "line",
+      "path": [
+        {
+          "t": 0,
+          "x": 3,
+          "y": -1
+        },
+        {
+          "t": 1,
+          "x": 3,
+          "y": -1
+        }
+      ]
+    },
+    {
+      "id": "RT",
+      "label": "",
+      "team": "O",
+      "kind": "line",
+      "path": [
+        {
+          "t": 0,
+          "x": 6,
+          "y": -1
+        },
+        {
+          "t": 1,
+          "x": 6,
+          "y": -1
+        }
+      ]
+    },
+    {
+      "id": "QB",
+      "label": "QB",
+      "team": "O",
+      "kind": "qb",
+      "path": [
+        {
+          "t": 0,
+          "x": 0,
+          "y": -6
+        },
+        {
+          "t": 1,
+          "x": 0,
+          "y": -6
+        }
+      ]
+    },
+    {
+      "id": "RB",
+      "label": "RB",
+      "team": "O",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": 3.4,
+          "y": -6.4
+        },
+        {
+          "t": 1,
+          "x": 3.4,
+          "y": -6.4
+        }
+      ]
+    },
+    {
+      "id": "X",
+      "label": "X",
+      "team": "O",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": -20,
+          "y": 0
+        },
+        {
+          "t": 1,
+          "x": -20,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "id": "S",
+      "label": "S",
+      "team": "O",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": -8,
+          "y": 0.3
+        },
+        {
+          "t": 1,
+          "x": -8,
+          "y": 0.3
+        }
+      ]
+    },
+    {
+      "id": "Y",
+      "label": "Y",
+      "team": "O",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": 7.4,
+          "y": 0
+        },
+        {
+          "t": 1,
+          "x": 7.4,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "id": "Z",
+      "label": "Z",
+      "team": "O",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": 20,
+          "y": 0
+        },
+        {
+          "t": 1,
+          "x": 20,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "id": "DE1",
+      "label": "",
+      "team": "D",
+      "kind": "line",
+      "path": [
+        {
+          "t": 0,
+          "x": -5.2,
+          "y": 1.5
+        },
+        {
+          "t": 1,
+          "x": -5.2,
+          "y": 1.5
+        }
+      ]
+    },
+    {
+      "id": "DT1",
+      "label": "",
+      "team": "D",
+      "kind": "line",
+      "path": [
+        {
+          "t": 0,
+          "x": -1.8,
+          "y": 1.5
+        },
+        {
+          "t": 1,
+          "x": -1.8,
+          "y": 1.5
+        }
+      ]
+    },
+    {
+      "id": "DT2",
+      "label": "",
+      "team": "D",
+      "kind": "line",
+      "path": [
+        {
+          "t": 0,
+          "x": 1.8,
+          "y": 1.5
+        },
+        {
+          "t": 1,
+          "x": 1.8,
+          "y": 1.5
+        }
+      ]
+    },
+    {
+      "id": "DE2",
+      "label": "",
+      "team": "D",
+      "kind": "line",
+      "path": [
+        {
+          "t": 0,
+          "x": 5.2,
+          "y": 1.5
+        },
+        {
+          "t": 1,
+          "x": 5.2,
+          "y": 1.5
+        }
+      ]
+    },
+    {
+      "id": "CB1",
+      "label": "CB",
+      "team": "D",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": -18,
+          "y": 3
+        },
+        {
+          "t": 1,
+          "x": -16,
+          "y": 6
+        }
+      ]
+    },
+    {
+      "id": "CB2",
+      "label": "CB",
+      "team": "D",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": 18,
+          "y": 3
+        },
+        {
+          "t": 1,
+          "x": 16,
+          "y": 6
+        }
+      ]
+    },
+    {
+      "id": "W",
+      "label": "W",
+      "team": "D",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": -6,
+          "y": 6
+        },
+        {
+          "t": 1,
+          "x": -6,
+          "y": 6
+        }
+      ]
+    },
+    {
+      "id": "M",
+      "label": "M",
+      "team": "D",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": 0,
+          "y": 5
+        },
+        {
+          "t": 0.25,
+          "x": 0,
+          "y": 6
+        },
+        {
+          "t": 1,
+          "x": 0,
+          "y": 18
+        }
+      ]
+    },
+    {
+      "id": "NB",
+      "label": "N",
+      "team": "D",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": 8,
+          "y": 5
+        },
+        {
+          "t": 1,
+          "x": 8,
+          "y": 5
+        }
+      ]
+    },
+    {
+      "id": "SS",
+      "label": "S",
+      "team": "D",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": -8,
+          "y": 12
+        },
+        {
+          "t": 1,
+          "x": -12,
+          "y": 20
+        }
+      ]
+    },
+    {
+      "id": "FS",
+      "label": "S",
+      "team": "D",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": 8,
+          "y": 12
+        },
+        {
+          "t": 1,
+          "x": 12,
+          "y": 20
+        }
+      ]
+    },
+    {
+      "id": "BALL",
+      "label": "",
+      "team": "O",
+      "kind": "ball",
+      "path": [
+        {
+          "t": 0,
+          "x": 0,
+          "y": -6
+        },
+        {
+          "t": 0.42,
+          "x": 0,
+          "y": -6
+        },
+        {
+          "t": 1,
+          "x": 0,
+          "y": -6
+        }
+      ]
+    }
+  ]
+}
