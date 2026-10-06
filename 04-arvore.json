@@ -1,0 +1,278 @@
+{
+  "id": "arvore",
+  "order": 4,
+  "level": "Básico",
+  "family": "Rota",
+  "title": "Árvore de rotas",
+  "kicker": "Nove cortes, um idioma",
+  "body": [
+    "A árvore numera os cortes para o ataque falar a mesma língua. Do lado direito, as ímpares vão para a lateral e as pares entram no meio. Do lado esquerdo a numeração espelha.",
+    "1 flat. 2 slant. 3 comeback. 4 curl. 5 out. 6 dig, também chamada de in. 7 corner. 8 post. 9 go, também chamada de fly. A seam é a go pelo meio, não um número novo.",
+    "Nenhuma rota vive sozinha. O playbook combina uma par com uma ímpar para ocupar dois defensores com uma leitura só."
+  ],
+  "read": "Não decore o nome em inglês solto. Decore para onde o recebedor vai e qual defensor aquele corte ataca.",
+  "curriculum": "Vídeo de referência do canal: árvore de rotas. Go, slant e o resto dos cortes.",
+  "arena": {
+    "camera": "End zone ofensiva, alta, para a árvore abrir como um leque.",
+    "seconds": 9,
+    "emphasis": "Nove recebedores fantasma saem do mesmo ponto. Cada trilha acende com o número. Sem defesa, para o corte ficar limpo."
+  },
+  "beats": [
+    {
+      "t": 0,
+      "caption": "Um ponto de saída. Nove destinos."
+    },
+    {
+      "t": 0.25,
+      "caption": "Curtas: flat e slant. Depois out e curl."
+    },
+    {
+      "t": 0.55,
+      "caption": "Intermediárias: dig e comeback."
+    },
+    {
+      "t": 0.8,
+      "caption": "Fundo: corner, post e go."
+    }
+  ],
+  "actors": [
+    {
+      "id": "QB",
+      "label": "QB",
+      "team": "O",
+      "kind": "qb",
+      "path": [
+        {
+          "t": 0,
+          "x": 0,
+          "y": -7
+        },
+        {
+          "t": 1,
+          "x": 0,
+          "y": -7
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "label": "1",
+      "team": "O",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": 16,
+          "y": 0
+        },
+        {
+          "t": 1,
+          "x": 24,
+          "y": 2
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "label": "2",
+      "team": "O",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": 16,
+          "y": 0
+        },
+        {
+          "t": 0.2,
+          "x": 16,
+          "y": 3
+        },
+        {
+          "t": 1,
+          "x": 6,
+          "y": 9
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "label": "3",
+      "team": "O",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": 16,
+          "y": 0
+        },
+        {
+          "t": 0.45,
+          "x": 16,
+          "y": 14
+        },
+        {
+          "t": 1,
+          "x": 23,
+          "y": 10
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "label": "4",
+      "team": "O",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": 16,
+          "y": 0
+        },
+        {
+          "t": 0.45,
+          "x": 16,
+          "y": 12
+        },
+        {
+          "t": 1,
+          "x": 12,
+          "y": 10
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "label": "5",
+      "team": "O",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": 16,
+          "y": 0
+        },
+        {
+          "t": 0.35,
+          "x": 16,
+          "y": 8
+        },
+        {
+          "t": 1,
+          "x": 25,
+          "y": 8
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "label": "6",
+      "team": "O",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": 16,
+          "y": 0
+        },
+        {
+          "t": 0.4,
+          "x": 16,
+          "y": 12
+        },
+        {
+          "t": 1,
+          "x": 2,
+          "y": 12
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "label": "7",
+      "team": "O",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": 16,
+          "y": 0
+        },
+        {
+          "t": 0.4,
+          "x": 16,
+          "y": 12
+        },
+        {
+          "t": 1,
+          "x": 26,
+          "y": 24
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "label": "8",
+      "team": "O",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": 16,
+          "y": 0
+        },
+        {
+          "t": 0.4,
+          "x": 16,
+          "y": 12
+        },
+        {
+          "t": 1,
+          "x": 2,
+          "y": 26
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "label": "9",
+      "team": "O",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": 16,
+          "y": 0
+        },
+        {
+          "t": 1,
+          "x": 16,
+          "y": 30
+        }
+      ]
+    },
+    {
+      "id": "BALL",
+      "label": "",
+      "team": "O",
+      "kind": "ball",
+      "path": [
+        {
+          "t": 0,
+          "x": 0,
+          "y": -7
+        },
+        {
+          "t": 0.42,
+          "x": 0,
+          "y": -7
+        },
+        {
+          "t": 1,
+          "x": 0,
+          "y": -7
+        }
+      ]
+    }
+  ]
+}
