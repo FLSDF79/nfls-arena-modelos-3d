@@ -1,0 +1,467 @@
+{
+  "id": "i-form",
+  "order": 2,
+  "level": "Básico",
+  "family": "Formação",
+  "title": "I-Form",
+  "kicker": "A corrida declara a intenção",
+  "body": [
+    "No I-Form o fullback e o running back alinham atrás do quarterback, que está embaixo do centro. A formação ameaça a corrida no meio antes de ameaçar o passe.",
+    "O fullback é bloqueador de segundo nível ou saída curta. O halfback é a ameaça entre os tackles e também o checkdown.",
+    "Quando essa formação finge a corrida e solta o passe, a defesa que desceu cedo paga o preço. É a base visual do play action."
+  ],
+  "read": "Se os linebackers respeitam o fullback, o passe por cima deles fica mais barato.",
+  "curriculum": "Academy, formações ofensivas: I-Form.",
+  "arena": {
+    "camera": "Atrás da defesa, altura de linha lateral, para ver a pilha QB-FB-HB.",
+    "seconds": 8,
+    "emphasis": "A pilha do I acende. O fullback sobe para bloquear o linebacker. O halfback mostra a corrida e segura."
+  },
+  "beats": [
+    {
+      "t": 0,
+      "caption": "Under center. Fullback e halfback em fila."
+    },
+    {
+      "t": 0.4,
+      "caption": "O fullback sobe no segundo nível."
+    },
+    {
+      "t": 0.72,
+      "caption": "A corrida é a ameaça. O passe ainda não saiu."
+    }
+  ],
+  "actors": [
+    {
+      "id": "LT",
+      "label": "",
+      "team": "O",
+      "kind": "line",
+      "path": [
+        {
+          "t": 0,
+          "x": -6,
+          "y": -1
+        },
+        {
+          "t": 1,
+          "x": -6,
+          "y": -1
+        }
+      ]
+    },
+    {
+      "id": "LG",
+      "label": "",
+      "team": "O",
+      "kind": "line",
+      "path": [
+        {
+          "t": 0,
+          "x": -3,
+          "y": -1
+        },
+        {
+          "t": 1,
+          "x": -3,
+          "y": -1
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "label": "C",
+      "team": "O",
+      "kind": "line",
+      "path": [
+        {
+          "t": 0,
+          "x": 0,
+          "y": -1
+        },
+        {
+          "t": 1,
+          "x": 0,
+          "y": -1
+        }
+      ]
+    },
+    {
+      "id": "RG",
+      "label": "",
+      "team": "O",
+      "kind": "line",
+      "path": [
+        {
+          "t": 0,
+          "x": 3,
+          "y": -1
+        },
+        {
+          "t": 1,
+          "x": 3,
+          "y": -1
+        }
+      ]
+    },
+    {
+      "id": "RT",
+      "label": "",
+      "team": "O",
+      "kind": "line",
+      "path": [
+        {
+          "t": 0,
+          "x": 6,
+          "y": -1
+        },
+        {
+          "t": 1,
+          "x": 6,
+          "y": -1
+        }
+      ]
+    },
+    {
+      "id": "QB",
+      "label": "QB",
+      "team": "O",
+      "kind": "qb",
+      "path": [
+        {
+          "t": 0,
+          "x": 0,
+          "y": -3
+        },
+        {
+          "t": 1,
+          "x": 0,
+          "y": -3
+        }
+      ]
+    },
+    {
+      "id": "FB",
+      "label": "FB",
+      "team": "O",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": 0,
+          "y": -5.2
+        },
+        {
+          "t": 0.35,
+          "x": 0,
+          "y": -5.2
+        },
+        {
+          "t": 0.7,
+          "x": -1,
+          "y": 2.2
+        },
+        {
+          "t": 1,
+          "x": -1,
+          "y": 3
+        }
+      ]
+    },
+    {
+      "id": "HB",
+      "label": "HB",
+      "team": "O",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": 0,
+          "y": -8
+        },
+        {
+          "t": 0.4,
+          "x": 0,
+          "y": -8
+        },
+        {
+          "t": 0.75,
+          "x": 1.2,
+          "y": -1
+        },
+        {
+          "t": 1,
+          "x": 1.2,
+          "y": -1
+        }
+      ]
+    },
+    {
+      "id": "X",
+      "label": "X",
+      "team": "O",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": -20,
+          "y": 0
+        },
+        {
+          "t": 1,
+          "x": -20,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "id": "Z",
+      "label": "Z",
+      "team": "O",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": 20,
+          "y": 0
+        },
+        {
+          "t": 1,
+          "x": 20,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "id": "Y",
+      "label": "Y",
+      "team": "O",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": 7.2,
+          "y": 0
+        },
+        {
+          "t": 1,
+          "x": 7.2,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "id": "DE1",
+      "label": "",
+      "team": "D",
+      "kind": "line",
+      "path": [
+        {
+          "t": 0,
+          "x": -5.2,
+          "y": 1.5
+        },
+        {
+          "t": 1,
+          "x": -5.2,
+          "y": 1.5
+        }
+      ]
+    },
+    {
+      "id": "DT1",
+      "label": "",
+      "team": "D",
+      "kind": "line",
+      "path": [
+        {
+          "t": 0,
+          "x": -1.8,
+          "y": 1.5
+        },
+        {
+          "t": 1,
+          "x": -1.8,
+          "y": 1.5
+        }
+      ]
+    },
+    {
+      "id": "DT2",
+      "label": "",
+      "team": "D",
+      "kind": "line",
+      "path": [
+        {
+          "t": 0,
+          "x": 1.8,
+          "y": 1.5
+        },
+        {
+          "t": 1,
+          "x": 1.8,
+          "y": 1.5
+        }
+      ]
+    },
+    {
+      "id": "DE2",
+      "label": "",
+      "team": "D",
+      "kind": "line",
+      "path": [
+        {
+          "t": 0,
+          "x": 5.2,
+          "y": 1.5
+        },
+        {
+          "t": 1,
+          "x": 5.2,
+          "y": 1.5
+        }
+      ]
+    },
+    {
+      "id": "W",
+      "label": "W",
+      "team": "D",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": -3,
+          "y": 5
+        },
+        {
+          "t": 0.45,
+          "x": -3,
+          "y": 5
+        },
+        {
+          "t": 1,
+          "x": -2,
+          "y": 3.2
+        }
+      ]
+    },
+    {
+      "id": "M",
+      "label": "M",
+      "team": "D",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": 3,
+          "y": 5
+        },
+        {
+          "t": 0.45,
+          "x": 3,
+          "y": 5
+        },
+        {
+          "t": 1,
+          "x": 2,
+          "y": 3.2
+        }
+      ]
+    },
+    {
+      "id": "CB1",
+      "label": "CB",
+      "team": "D",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": -20,
+          "y": 5
+        },
+        {
+          "t": 1,
+          "x": -20,
+          "y": 5
+        }
+      ]
+    },
+    {
+      "id": "CB2",
+      "label": "CB",
+      "team": "D",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": 20,
+          "y": 5
+        },
+        {
+          "t": 1,
+          "x": 20,
+          "y": 5
+        }
+      ]
+    },
+    {
+      "id": "SS",
+      "label": "S",
+      "team": "D",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": -8,
+          "y": 16
+        },
+        {
+          "t": 1,
+          "x": -8,
+          "y": 16
+        }
+      ]
+    },
+    {
+      "id": "FS",
+      "label": "S",
+      "team": "D",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": 8,
+          "y": 16
+        },
+        {
+          "t": 1,
+          "x": 8,
+          "y": 16
+        }
+      ]
+    },
+    {
+      "id": "BALL",
+      "label": "",
+      "team": "O",
+      "kind": "ball",
+      "path": [
+        {
+          "t": 0,
+          "x": 0,
+          "y": -3
+        },
+        {
+          "t": 0.42,
+          "x": 0,
+          "y": -3
+        },
+        {
+          "t": 1,
+          "x": 0,
+          "y": -3
+        }
+      ]
+    }
+  ]
+}
