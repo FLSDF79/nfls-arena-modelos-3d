@@ -1,0 +1,372 @@
+{
+  "id": "screen",
+  "order": 30,
+  "level": "Avançado",
+  "family": "Conceito",
+  "title": "Screen",
+  "kicker": "Um passe curto com bloqueio na frente",
+  "body": [
+    "Na screen a linha finge a proteção, solta os defensores e sobe para bloquear. O running back vaza para a flat. A bola sai curta, quase para trás.",
+    "O pass rush que venceu a linha corre para o quarterback e passa do jogo. Os bloqueadores já estão na frente do recebedor.",
+    "Não é checkdown. É uma corrida desenhada como passe, para punir a defesa que ataca o pocket sem contar quem está saindo."
+  ],
+  "read": "Se a linha defensiva entra sem olhar para trás, a screen está viva. Se um linebacker ficou plantado na flat, ela morre.",
+  "curriculum": "Extensão do canal: o pass rush que só vê o quarterback doa a screen.",
+  "arena": {
+    "camera": "Lateral, mostrando a linha ofensiva soltando e subindo à frente do running back.",
+    "seconds": 9,
+    "emphasis": "Três bloqueadores à frente da bola. O pass rush passa do recebedor."
+  },
+  "beats": [
+    {
+      "t": 0,
+      "caption": "A linha finge que vai proteger."
+    },
+    {
+      "t": 0.35,
+      "caption": "Eles soltam e sobem. O back vaza."
+    },
+    {
+      "t": 0.62,
+      "caption": "A bola sai curta, com bloqueio na frente."
+    }
+  ],
+  "actors": [
+    {
+      "id": "LT",
+      "label": "",
+      "team": "O",
+      "kind": "line",
+      "path": [
+        {
+          "t": 0,
+          "x": -6,
+          "y": -1
+        },
+        {
+          "t": 0.28,
+          "x": -6,
+          "y": -1
+        },
+        {
+          "t": 1,
+          "x": -4,
+          "y": 6
+        }
+      ]
+    },
+    {
+      "id": "LG",
+      "label": "",
+      "team": "O",
+      "kind": "line",
+      "path": [
+        {
+          "t": 0,
+          "x": -3,
+          "y": -1
+        },
+        {
+          "t": 0.28,
+          "x": -3,
+          "y": -1
+        },
+        {
+          "t": 1,
+          "x": 0,
+          "y": 7
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "label": "C",
+      "team": "O",
+      "kind": "line",
+      "path": [
+        {
+          "t": 0,
+          "x": 0,
+          "y": -1
+        },
+        {
+          "t": 0.28,
+          "x": 0,
+          "y": -1
+        },
+        {
+          "t": 1,
+          "x": 4,
+          "y": 7
+        }
+      ]
+    },
+    {
+      "id": "RG",
+      "label": "",
+      "team": "O",
+      "kind": "line",
+      "path": [
+        {
+          "t": 0,
+          "x": 3,
+          "y": -1
+        },
+        {
+          "t": 1,
+          "x": 3,
+          "y": -1
+        }
+      ]
+    },
+    {
+      "id": "RT",
+      "label": "",
+      "team": "O",
+      "kind": "line",
+      "path": [
+        {
+          "t": 0,
+          "x": 6,
+          "y": -1
+        },
+        {
+          "t": 1,
+          "x": 6,
+          "y": -1
+        }
+      ]
+    },
+    {
+      "id": "QB",
+      "label": "QB",
+      "team": "O",
+      "kind": "qb",
+      "path": [
+        {
+          "t": 0,
+          "x": 0,
+          "y": -6
+        },
+        {
+          "t": 1,
+          "x": 0,
+          "y": -6
+        }
+      ]
+    },
+    {
+      "id": "RB",
+      "label": "RB",
+      "team": "O",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": 2,
+          "y": -7
+        },
+        {
+          "t": 0.3,
+          "x": 6,
+          "y": -4
+        },
+        {
+          "t": 1,
+          "x": 14,
+          "y": 2
+        }
+      ]
+    },
+    {
+      "id": "X",
+      "label": "X",
+      "team": "O",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": -18,
+          "y": 0
+        },
+        {
+          "t": 1,
+          "x": -18,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "id": "Z",
+      "label": "Z",
+      "team": "O",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": 18,
+          "y": 0
+        },
+        {
+          "t": 1,
+          "x": 18,
+          "y": 18
+        }
+      ]
+    },
+    {
+      "id": "Y",
+      "label": "Y",
+      "team": "O",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": -8,
+          "y": 0
+        },
+        {
+          "t": 1,
+          "x": -8,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "id": "DE1",
+      "label": "",
+      "team": "D",
+      "kind": "line",
+      "path": [
+        {
+          "t": 0,
+          "x": -5,
+          "y": 1.5
+        },
+        {
+          "t": 1,
+          "x": -2,
+          "y": -4
+        }
+      ]
+    },
+    {
+      "id": "DT1",
+      "label": "",
+      "team": "D",
+      "kind": "line",
+      "path": [
+        {
+          "t": 0,
+          "x": -1.6,
+          "y": 1.5
+        },
+        {
+          "t": 1,
+          "x": 0,
+          "y": -3
+        }
+      ]
+    },
+    {
+      "id": "DT2",
+      "label": "",
+      "team": "D",
+      "kind": "line",
+      "path": [
+        {
+          "t": 0,
+          "x": 2,
+          "y": 1.5
+        },
+        {
+          "t": 1,
+          "x": 2,
+          "y": 1.5
+        }
+      ]
+    },
+    {
+      "id": "DE2",
+      "label": "",
+      "team": "D",
+      "kind": "line",
+      "path": [
+        {
+          "t": 0,
+          "x": 5.2,
+          "y": 1.5
+        },
+        {
+          "t": 1,
+          "x": 5.2,
+          "y": 1.5
+        }
+      ]
+    },
+    {
+      "id": "M",
+      "label": "M",
+      "team": "D",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": 2,
+          "y": 6
+        },
+        {
+          "t": 1,
+          "x": 4,
+          "y": 3
+        }
+      ]
+    },
+    {
+      "id": "FS",
+      "label": "S",
+      "team": "D",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": 0,
+          "y": 16
+        },
+        {
+          "t": 1,
+          "x": 0,
+          "y": 16
+        }
+      ]
+    },
+    {
+      "id": "BALL",
+      "label": "",
+      "team": "O",
+      "kind": "ball",
+      "path": [
+        {
+          "t": 0,
+          "x": 0,
+          "y": -6
+        },
+        {
+          "t": 0.45,
+          "x": 0,
+          "y": -6
+        },
+        {
+          "t": 0.7,
+          "x": 12,
+          "y": 1
+        },
+        {
+          "t": 1,
+          "x": 14,
+          "y": 2
+        }
+      ]
+    }
+  ]
+}
