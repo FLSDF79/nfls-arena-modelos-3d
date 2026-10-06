@@ -1,0 +1,13 @@
+NFLS AI ARENA. Pacote completo dos 31 modelos 3D.
+
+Este arquivo fica na sua máquina. Não depende desta conversa continuar aberta.
+
+Conteúdo
+- modelos-3d.json: os 31 conceitos, com frase para explicar, câmera, tempos e a rota de cada peça em jardas.
+- caderno-conceitos-nfls.pdf: o mesmo conteúdo em texto, para ler fora do campo.
+- LEIA-ME.txt: este aviso.
+
+Como usar
+x 0 é o centro. Negativo é a esquerda do ataque. y 0 é a linha de scrimmage. Positivo é a direção do ataque.
+Ataque em off-white, quarterback e bola em ciano, defesa em vermelho.
+Diagrama didático. Não é tracking. Não usa logo da liga nem jogador real.
