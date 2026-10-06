@@ -1,0 +1,188 @@
+[
+  {
+    "ordem": 1,
+    "id": "personnel-11",
+    "titulo": "Personnel 11 em shotgun",
+    "arquivo": "01-personnel-11.json"
+  },
+  {
+    "ordem": 2,
+    "id": "i-form",
+    "titulo": "I-Form",
+    "arquivo": "02-i-form.json"
+  },
+  {
+    "ordem": 3,
+    "id": "empty",
+    "titulo": "Empty",
+    "arquivo": "03-empty.json"
+  },
+  {
+    "ordem": 4,
+    "id": "arvore",
+    "titulo": "Árvore de rotas",
+    "arquivo": "04-arvore.json"
+  },
+  {
+    "ordem": 5,
+    "id": "slant-homem",
+    "titulo": "Slant contra homem",
+    "arquivo": "05-slant-homem.json"
+  },
+  {
+    "ordem": 6,
+    "id": "curl-cover3",
+    "titulo": "Curl contra Cover 3",
+    "arquivo": "06-curl-cover3.json"
+  },
+  {
+    "ordem": 7,
+    "id": "dig-cover2",
+    "titulo": "Dig contra Cover 2",
+    "arquivo": "07-dig-cover2.json"
+  },
+  {
+    "ordem": 8,
+    "id": "go-cover1",
+    "titulo": "Go contra Cover 1",
+    "arquivo": "08-go-cover1.json"
+  },
+  {
+    "ordem": 9,
+    "id": "motion-homem",
+    "titulo": "Motion que denuncia o homem",
+    "arquivo": "09-motion-homem.json"
+  },
+  {
+    "ordem": 10,
+    "id": "motion-zona",
+    "titulo": "Motion que denuncia a zona",
+    "arquivo": "10-motion-zona.json"
+  },
+  {
+    "ordem": 11,
+    "id": "hilo",
+    "titulo": "Hi-lo",
+    "arquivo": "11-hilo.json"
+  },
+  {
+    "ordem": 12,
+    "id": "play-action",
+    "titulo": "Play action boot",
+    "arquivo": "12-play-action.json"
+  },
+  {
+    "ordem": 13,
+    "id": "rpo",
+    "titulo": "RPO na slant",
+    "arquivo": "13-rpo.json"
+  },
+  {
+    "ordem": 14,
+    "id": "cover2",
+    "titulo": "Cover 2",
+    "arquivo": "14-cover2.json"
+  },
+  {
+    "ordem": 15,
+    "id": "cover3",
+    "titulo": "Cover 3",
+    "arquivo": "15-cover3.json"
+  },
+  {
+    "ordem": 16,
+    "id": "tampa2",
+    "titulo": "Tampa 2",
+    "arquivo": "16-tampa2.json"
+  },
+  {
+    "ordem": 17,
+    "id": "cover6",
+    "titulo": "Cover 6",
+    "arquivo": "17-cover6.json"
+  },
+  {
+    "ordem": 18,
+    "id": "nickel-43",
+    "titulo": "Nickel, 4-3 e 3-4",
+    "arquivo": "18-nickel-43.json"
+  },
+  {
+    "ordem": 19,
+    "id": "pass-rush",
+    "titulo": "Pass rush além do sack",
+    "arquivo": "19-pass-rush.json"
+  },
+  {
+    "ordem": 20,
+    "id": "smash",
+    "titulo": "Smash",
+    "arquivo": "20-smash.json"
+  },
+  {
+    "ordem": 21,
+    "id": "quatro-verticais",
+    "titulo": "Quatro verticais",
+    "arquivo": "21-quatro-verticais.json"
+  },
+  {
+    "ordem": 22,
+    "id": "shallow",
+    "titulo": "Shallow cross",
+    "arquivo": "22-shallow.json"
+  },
+  {
+    "ordem": 23,
+    "id": "wheel-constraint",
+    "titulo": "Wheel e jogada de restrição",
+    "arquivo": "23-wheel-constraint.json"
+  },
+  {
+    "ordem": 24,
+    "id": "out",
+    "titulo": "Out",
+    "arquivo": "24-out.json"
+  },
+  {
+    "ordem": 25,
+    "id": "comeback",
+    "titulo": "Comeback",
+    "arquivo": "25-comeback.json"
+  },
+  {
+    "ordem": 26,
+    "id": "post",
+    "titulo": "Post",
+    "arquivo": "26-post.json"
+  },
+  {
+    "ordem": 27,
+    "id": "corner-route",
+    "titulo": "Corner",
+    "arquivo": "27-corner-route.json"
+  },
+  {
+    "ordem": 28,
+    "id": "dime",
+    "titulo": "Dime",
+    "arquivo": "28-dime.json"
+  },
+  {
+    "ordem": 29,
+    "id": "cover4",
+    "titulo": "Cover 4",
+    "arquivo": "29-cover4.json"
+  },
+  {
+    "ordem": 30,
+    "id": "screen",
+    "titulo": "Screen",
+    "arquivo": "30-screen.json"
+  },
+  {
+    "ordem": 31,
+    "id": "mesh",
+    "titulo": "Mesh",
+    "arquivo": "31-mesh.json"
+  }
+]
