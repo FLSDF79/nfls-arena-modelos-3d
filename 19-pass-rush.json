@@ -1,0 +1,408 @@
+{
+  "id": "pass-rush",
+  "order": 19,
+  "level": "Avançado",
+  "family": "Defesa",
+  "title": "Pass rush além do sack",
+  "kicker": "A pressão que não aparece na tabela",
+  "body": [
+    "Sack é o produto visível. O produto tático é o tempo. Se o edge vence cedo, o quarterback joga a primeira leitura, não a melhor.",
+    "Uma cobertura que seria tardia fica pontual porque a bola saiu antes. A interceptação entra na conta do safety e devia uma frase ao pass rush.",
+    "Por isso a secundária e a linha não são departamentos. São o mesmo relógio."
+  ],
+  "read": "Quando a bola sai curta e feia para a flat, não conclua que a rota era essa. Olhe se o pocket já tinha acabado.",
+  "curriculum": "Análise do canal sobre pass rush para além do sack, no Super Bowl LIV.",
+  "arena": {
+    "camera": "Pocket, quase no chão, atrás do tackle. Corte para o safety só depois da bola sair.",
+    "seconds": 8,
+    "emphasis": "O edge entra. O QB encolhe. A go ainda não acabou e a bola já foi para a flat."
+  },
+  "beats": [
+    {
+      "t": 0,
+      "caption": "A go está desenhada. A cobertura aguenta se houver tempo."
+    },
+    {
+      "t": 0.42,
+      "caption": "O edge vence por fora. Não há sack ainda."
+    },
+    {
+      "t": 0.68,
+      "caption": "A bola sai cedo na flat. A pressão fez a jogada."
+    }
+  ],
+  "actors": [
+    {
+      "id": "LT",
+      "label": "",
+      "team": "O",
+      "kind": "line",
+      "path": [
+        {
+          "t": 0,
+          "x": -6,
+          "y": -1
+        },
+        {
+          "t": 1,
+          "x": -6,
+          "y": -1
+        }
+      ]
+    },
+    {
+      "id": "LG",
+      "label": "",
+      "team": "O",
+      "kind": "line",
+      "path": [
+        {
+          "t": 0,
+          "x": -3,
+          "y": -1
+        },
+        {
+          "t": 1,
+          "x": -3,
+          "y": -1
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "label": "C",
+      "team": "O",
+      "kind": "line",
+      "path": [
+        {
+          "t": 0,
+          "x": 0,
+          "y": -1
+        },
+        {
+          "t": 1,
+          "x": 0,
+          "y": -1
+        }
+      ]
+    },
+    {
+      "id": "RG",
+      "label": "",
+      "team": "O",
+      "kind": "line",
+      "path": [
+        {
+          "t": 0,
+          "x": 3,
+          "y": -1
+        },
+        {
+          "t": 1,
+          "x": 3,
+          "y": -1
+        }
+      ]
+    },
+    {
+      "id": "RT",
+      "label": "",
+      "team": "O",
+      "kind": "line",
+      "path": [
+        {
+          "t": 0,
+          "x": 6,
+          "y": -1
+        },
+        {
+          "t": 1,
+          "x": 6,
+          "y": -1
+        }
+      ]
+    },
+    {
+      "id": "QB",
+      "label": "QB",
+      "team": "O",
+      "kind": "qb",
+      "path": [
+        {
+          "t": 0,
+          "x": 0,
+          "y": -6
+        },
+        {
+          "t": 0.45,
+          "x": 0,
+          "y": -6
+        },
+        {
+          "t": 0.7,
+          "x": -1.5,
+          "y": -5
+        },
+        {
+          "t": 1,
+          "x": -1.5,
+          "y": -5
+        }
+      ]
+    },
+    {
+      "id": "RB",
+      "label": "RB",
+      "team": "O",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": -3,
+          "y": -6.5
+        },
+        {
+          "t": 0.4,
+          "x": 10,
+          "y": -1
+        },
+        {
+          "t": 1,
+          "x": 16,
+          "y": 2
+        }
+      ]
+    },
+    {
+      "id": "Z",
+      "label": "Z",
+      "team": "O",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": 18,
+          "y": 0
+        },
+        {
+          "t": 1,
+          "x": 18,
+          "y": 28
+        }
+      ]
+    },
+    {
+      "id": "X",
+      "label": "X",
+      "team": "O",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": -18,
+          "y": 0
+        },
+        {
+          "t": 1,
+          "x": -18,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "id": "Y",
+      "label": "Y",
+      "team": "O",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": 7,
+          "y": 0
+        },
+        {
+          "t": 1,
+          "x": 7,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "id": "DE1",
+      "label": "",
+      "team": "D",
+      "kind": "line",
+      "path": [
+        {
+          "t": 0,
+          "x": -5.2,
+          "y": 1.5
+        },
+        {
+          "t": 1,
+          "x": -5.2,
+          "y": 1.2
+        }
+      ]
+    },
+    {
+      "id": "DT1",
+      "label": "",
+      "team": "D",
+      "kind": "line",
+      "path": [
+        {
+          "t": 0,
+          "x": -1.8,
+          "y": 1.5
+        },
+        {
+          "t": 1,
+          "x": -1.8,
+          "y": 1.5
+        }
+      ]
+    },
+    {
+      "id": "DT2",
+      "label": "",
+      "team": "D",
+      "kind": "line",
+      "path": [
+        {
+          "t": 0,
+          "x": 1.8,
+          "y": 1.5
+        },
+        {
+          "t": 1,
+          "x": 1.8,
+          "y": 1.5
+        }
+      ]
+    },
+    {
+      "id": "DE2",
+      "label": "",
+      "team": "D",
+      "kind": "line",
+      "path": [
+        {
+          "t": 0,
+          "x": 5.2,
+          "y": 1.5
+        },
+        {
+          "t": 0.45,
+          "x": 4.2,
+          "y": -1
+        },
+        {
+          "t": 1,
+          "x": 2.2,
+          "y": -3.5
+        }
+      ]
+    },
+    {
+      "id": "M",
+      "label": "M",
+      "team": "D",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": 0,
+          "y": 6
+        },
+        {
+          "t": 1,
+          "x": 0,
+          "y": 6
+        }
+      ]
+    },
+    {
+      "id": "W",
+      "label": "W",
+      "team": "D",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": -6,
+          "y": 6
+        },
+        {
+          "t": 1,
+          "x": -6,
+          "y": 6
+        }
+      ]
+    },
+    {
+      "id": "CB",
+      "label": "CB",
+      "team": "D",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": 18,
+          "y": 3
+        },
+        {
+          "t": 1,
+          "x": 18,
+          "y": 20
+        }
+      ]
+    },
+    {
+      "id": "FS",
+      "label": "S",
+      "team": "D",
+      "kind": "skill",
+      "path": [
+        {
+          "t": 0,
+          "x": 0,
+          "y": 16
+        },
+        {
+          "t": 1,
+          "x": 0,
+          "y": 16
+        }
+      ]
+    },
+    {
+      "id": "BALL",
+      "label": "",
+      "team": "O",
+      "kind": "ball",
+      "path": [
+        {
+          "t": 0,
+          "x": 0,
+          "y": -6
+        },
+        {
+          "t": 0.55,
+          "x": -1,
+          "y": -5.2
+        },
+        {
+          "t": 0.85,
+          "x": 14,
+          "y": 1.5
+        },
+        {
+          "t": 1,
+          "x": 14,
+          "y": 1.5
+        }
+      ]
+    }
+  ]
+}
